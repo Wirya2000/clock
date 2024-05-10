@@ -1,0 +1,14 @@
+#clock {
+	font-size: 175px;
+	width: 900px;
+	margin: auto;
+	transform: translateY(100%);
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+#btn-reset {
+	/* margin-top: 20%; */
+	/* position: fixed; */
+
+}
