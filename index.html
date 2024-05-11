@@ -15,6 +15,25 @@
         <button id="play" class="btn btn-success">Play</button>
         <button id="pause" class="btn btn-warning">Pause</button>
     </div>
+
+    <div class="text-center">
+        <input type="number" id="txt_hour" value="09" max="24"> : <input type="number" id="txt_minute" value="00" max="60"> : <input type="number" id="txt_second" value="00" max="60">
+        <button type="button" id="btn-set" class="btn btn-primary" onclick="setCustomTime()">SET</button>
+    </div>
+
+    <div class="text-center">
+        <button type="button" id="btn_1x" class="btn btn-outline-primary">1x</button>
+        <button type="button" id="btn_2x" class="btn btn-outline-primary">2x</button>
+        <button type="button" id="btn_5x" class="btn btn-outline-primary">5x</button>
+        <button type="button" id="btn_10x" class="btn btn-outline-primary">10x</button>
+    </div>
+    
+    <div class="text-center">
+        <p>Atur durasi skip </p>
+        <input type="number" id="txt_skip" value="5"> second
+        <button type="button" id="btn-set-skip" class="btn btn-primary"">CHANGE</button>
+    </div>
+
 	<div id="clock">8:10:45</div>
 
 	<script src="clock2.js"></script>
